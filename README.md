@@ -38,8 +38,7 @@ cd mtuq_pso
 
 ```
 mtuq_pso/
-├── README.md
-├── PSO_fixedmagnitude.py          # Double-couple PSO with fixed magnitude
+├── README.md        
 ├── PSO_magnitudesearch.py         # Double-couple PSO with magnitude optimization
 ├── FMT_PSO.py                     # Full moment tensor PSO
 └── examples/
