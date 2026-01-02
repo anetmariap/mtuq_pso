@@ -39,8 +39,8 @@ cd mtuq_pso
 ```
 mtuq_pso/
 ├── README.md        
-├── PSO_magnitudesearch.py         # Double-couple PSO with magnitude optimization
-├── FMT_PSO.py                     # Full moment tensor PSO
+├── grid_search.py         # Double-couple PSO with magnitude optimization
+├── fmt_pso.py                     # Full moment tensor PSO
 └── examples/
     └── run_pso_example.sh         # Example run script
 ```
@@ -52,7 +52,7 @@ mtuq_pso/
 For double-couple inversion with simultaneous magnitude optimization:
 
 ```bash
-mpirun -n 4 python PSO_magnitudesearch.py
+mpirun -n 4 python grid_search.py
 ```
 
 **Key parameters:**
@@ -65,7 +65,7 @@ mpirun -n 4 python PSO_magnitudesearch.py
 For general moment tensor inversion without double-couple constraint:
 
 ```bash
-mpirun -n 4 python FMT_PSO.py
+mpirun -n 4 python fmt_pso.py
 ```
 
 **Features:**
