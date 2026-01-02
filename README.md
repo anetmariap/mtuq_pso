@@ -11,8 +11,8 @@
 PSO is a population-based metaheuristic optimization technique that efficiently searches the parameter space by maintaining a swarm of candidate solutions (particles). Each particle explores the search space and shares information about good solutions, enabling rapid convergence to optimal moment tensor parameters.
 
 **Advantages over grid search:**
-- Significantly faster convergence (typically ~5,000 evaluations vs. 288,000+ for grid search)
-- Handles high-dimensional problems efficiently (full MT + magnitude = 7D)
+- Significantly faster convergence
+- Handles high-dimensional problems efficiently
 - Adaptively focuses search effort in promising regions
 - Naturally parallelizable with MPI
 
