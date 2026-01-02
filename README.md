@@ -4,7 +4,7 @@
 
 ---
 
-> **Status**: This repository provides working PSO implementations for moment tensor inversion. The scripts include double-couple constrained inversion (with fixed or variable magnitude) and full moment tensor inversion. Please feel free to open an issue if you encounter any problems.
+> **Status**: This repository provides working PSO implementations for moment tensor inversion. The scripts include double-couple constrained inversion and full moment tensor inversion. Please feel free to open an issue if you encounter any problems.
 
 ## Overview
 
